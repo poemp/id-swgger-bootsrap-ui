@@ -32,7 +32,7 @@ public class SwaggerConfig {
         List<Parameter> paraList = new ArrayList<>();
         ParameterBuilder paraBuilder = new ParameterBuilder();
         springfox.documentation.service.Parameter param1 = paraBuilder
-                .name("auth_str").description("auth_str")
+                .name("Auth").description("授权码")
                 .modelRef(new ModelRef("string")).parameterType("header")
                 .required(false).build();
         paraList.add(param1);

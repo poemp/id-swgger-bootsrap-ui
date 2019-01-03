@@ -48,7 +48,7 @@
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>swagger-bootstrap-ui</artifactId>
-            <version>1.8.2</version>
+            <version>1.8.7</version>
         </dependency>
 
     </dependencies>
